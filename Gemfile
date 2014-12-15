@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 ruby '2.0.0'
 
-gem 'pg'
+#gem 'pg'
 # my gem, gets you tf-idf weights
 gem 'tf_idf_hash', :git => "https://github.com/rclacerna/tf_idf_hash_gem.git"
 # reads PDF and extract the data from it
