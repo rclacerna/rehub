@@ -1,27 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f378bc4-d645-4400-9d95-d51aafdac376" name="Default" comment="# devise and observer working">
-      <change type="DELETED" beforePath="C:\Users\User\Dropbox\Stage 4\FYP 4\MY_CODE\.idea\jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\User\Dropbox\Stage 4\FYP 4\MY_CODE\FYP_Submission_Codes\FYP_RyanLacerna_10276505\vector_space_model.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\User\Dropbox\Stage 4\FYP 4\MY_CODE\Main" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\User\Dropbox\Stage 4\FYP 4\MY_CODE\d3.v3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\User\Dropbox\Stage 4\FYP 4\MY_CODE\flare" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\User\Dropbox\Stage 4\FYP 4\MY_CODE\flare.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\User\Dropbox\Stage 4\FYP 4\MY_CODE\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\User\Dropbox\Stage 4\FYP 4\MY_CODE\k_means" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\User\Dropbox\Stage 4\FYP 4\MY_CODE\k_means_model.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\User\Dropbox\Stage 4\FYP 4\MY_CODE\mydata.csv" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\User\Dropbox\Stage 4\FYP 4\MY_CODE\mydata.csv___jb_bak___" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\User\Dropbox\Stage 4\FYP 4\MY_CODE\mydata.csv___jb_old___" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\User\Dropbox\Stage 4\FYP 4\MY_CODE\pairs_data.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\User\Dropbox\Stage 4\FYP 4\MY_CODE\stuff.zip" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\User\Dropbox\Stage 4\FYP 4\MY_CODE\teststuff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\User\Dropbox\Stage 4\FYP 4\MY_CODE\vector_space_model.rb" afterPath="" />
+    <list default="true" id="0f378bc4-d645-4400-9d95-d51aafdac376" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Rehub_Project/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/../Rehub_Project/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Rehub_Project/Gemfile.lock" afterPath="$PROJECT_DIR$/../Rehub_Project/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Rehub_Project/Gemfile" afterPath="$PROJECT_DIR$/../Rehub_Project/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Rehub_Project/app/controllers/file_managers_controller.rb" afterPath="$PROJECT_DIR$/../Rehub_Project/app/controllers/file_managers_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/file_managers_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/file_managers_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Rehub_Project/config/environments/production.rb" afterPath="$PROJECT_DIR$/../Rehub_Project/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../CloudApplicationDevelopment/tf_idf_hash/lib/tf_idf_hash.rb" afterPath="$PROJECT_DIR$/../../CloudApplicationDevelopment/tf_idf_hash/lib/tf_idf_hash.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Rehub_Project/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Rehub_Project/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -50,11 +40,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5746479" vertical-offset="0" max-vertical-offset="1411">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1411">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_managers_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/file_managers_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.5344036" vertical-offset="0" max-vertical-offset="1241">
+              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cosine_similarity_hash.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Bitnami/rubystack-2.0.0-21/ruby/lib/ruby/gems/2.0.0/bundler/gems/Cosine_similarity_hash-c5f4a0dc09bb/lib/Cosine_similarity_hash.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2380">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -119,11 +129,11 @@
         <option value="$PROJECT_DIR$/app/views/file_managers/flare.json" />
         <option value="$PROJECT_DIR$/app/models/user_observer.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/file_managers_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
+        <option value="$PROJECT_DIR$/app/controllers/file_managers_controller.rb" />
       </list>
     </option>
   </component>
@@ -179,12 +189,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rehub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rehub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rehub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rehub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CloudApplicationDevelopment/tf_idf_hash" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
@@ -395,19 +437,24 @@
       <created>1418588726555</created>
       <updated>1418588726556</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="# devise and observer working">
+      <created>1418652020710</created>
+      <updated>1418652020710</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41969696" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27617604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20045386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29198185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -417,7 +464,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42943853" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -459,9 +505,9 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="# devise and observer working" />
     <MESSAGE value="# devise and observer workingasdas" />
-    <option name="LAST_COMMIT_MESSAGE" value="# devise and observer workingasdas" />
+    <MESSAGE value="# devise and observer working" />
+    <option name="LAST_COMMIT_MESSAGE" value="# devise and observer working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -517,13 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Bitnami/rubystack-2.0.0-21/ruby/lib/ruby/gems/2.0.0/bundler/gems/Cosine_similarity_hash-c5f4a0dc09bb/lib/Cosine_similarity_hash.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27309236" vertical-offset="0" max-vertical-offset="2380">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Bitnami/rubystack-2.0.0-21/ruby/lib/ruby/gems/2.0.0/gems/tf-idf-similarity-0.1.4/lib/tf-idf-similarity.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5093633" vertical-offset="0" max-vertical-offset="534">
@@ -563,8 +602,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5746479" vertical-offset="0" max-vertical-offset="1411">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1411">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Bitnami/rubystack-2.0.0-21/ruby/lib/ruby/gems/2.0.0/bundler/gems/Cosine_similarity_hash-c5f4a0dc09bb/lib/Cosine_similarity_hash.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2380">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/file_managers_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.5344036" vertical-offset="0" max-vertical-offset="1241">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>

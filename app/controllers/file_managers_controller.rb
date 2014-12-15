@@ -3,55 +3,6 @@ class FileManagersController < ApplicationController
   #  render :file => '/app/views/file_managers/upload.html.erb'
   end
 
-
-=begin
-# show page
-  def display_show
-    dir_arr = Dir.glob('public/files/*')
-    file_arr = []
-    dir_arr.each do |file1|
-      filepdf = file1.split('/')                     # split files by "/" e.g public/files/file_name.pdf
-      file_arr << filepdf[2]                         # array collection of documents in the folder /public/files
-    end
-    if request.post?
-      p '@FILE '*10
-      @chosen_files = params[:file]                   # {"myPDF2.pdf"=>"myPDF2.pdf", "myPDF3.pdf"=>"myPDF3.pdf"}
-    end
-    file = []
-    if @chosen_files.present?                         # @chosen_file is not empty
-      @chosen_files.each do |file|
-        file << file[1]                               # @file contains e.g ["myPDF.pdf", "myPDF2.pdf", "myPDF3.pdf"]
-      end
-    end
-    render :file => 'app/views/attachments/show.html'
-  end
-=end
-
-  def show
-=begin
-
-   # params[:id] = 2
-    @attachment = Attachment.find(params[:id])
-    send_data @attachment.data, :filename => @attachment.filename, :type => @attachment.content_type
-
-=end
-  end
-
-  def null_object_pattern
-    uploaded_io_arr = []
-    uploaded_io_arr << params[:query]
-    uploaded_io_arr << params[:file2]
-    uploaded_io_arr << params[:file3]
-    uploaded_io_arr << params[:file4]
-    uploaded_io_arr << params[:file5]
-    uploaded_io_arr << params[:file6]
-    uploaded_io_arr << params[:file7]
-    filename_arr = []
-    doc_num = uploaded_io_arr.compact!.size
-  end
-
-
-
   def create
     @filename_n_wordcount = []
     @records = Dir.glob("public/files/*")
@@ -112,22 +63,5 @@ class FileManagersController < ApplicationController
 
     @result = @cosine.keys
   end
-
-=begin
-# in the show
-  def choose_files
-    @arr_dir = Dir.glob('public/files/*')
-    @file = []
-    @arr_dir.each do |file1|
-      @file_pdf = file1.split('/')
-      p @file << @file_pdf[2]
-    end
-    if request.post?
-      p '@FILE '*10
-      p params[:file]
-    end
-  end
-=end
-
 
 end
