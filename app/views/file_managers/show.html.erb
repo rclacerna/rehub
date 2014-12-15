@@ -1,0 +1,40 @@
+
+<br>
+<%= form_tag("/show", method: "choose_files") do %>
+    <%= label_tag(:id, "Search PDF ID:") %>
+    <%= text_field_tag(:id) %>
+    <%= submit_tag("Search") %>
+<% end %>
+<br>
+
+<%= form_tag 'create' , :multipart => true do %>
+    <%= submit_tag "Back to upload" %>
+<% end %>
+<h1>===========Choose files to be analysed=================</h1>
+
+
+<% if @f.present? %>
+    <%= form_tag({action: :display_show}, multipart: true, name: 'file') do %>
+        <% @f.each do |chk| %>
+        <br>
+
+        <%=check_box_tag "[file][#{chk}]",chk %>
+        <%=chk %> <br/>
+    <% end %>
+    <%= submit_tag("Analyze") %>
+<% end %>
+<% end  %>
+<br>
+<h1>==============Output==================</h1>
+
+<%=@fr%>
+<h1>========================================</h1>
+
+<h2>Database list:</h2>
+<h3>ID   |  Filename</h3>
+<% Attachment.all.each do |user| %>
+    <p>
+    <b><%= user.id %></b>  |  <%= user.filename %>
+    </p>
+<% end %>
+<br>

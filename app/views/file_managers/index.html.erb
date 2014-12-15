@@ -1,0 +1,33 @@
+
+<%if current_user %>
+    <center><h1>ReHub</h1></center>
+    <br>
+    <br>
+    <%= form_tag 'create' , :multipart => true do %>
+        <center><h4>Please upload your query document:</h4></center>
+        <center><%= file_field_tag 'query' %></center>
+
+        <center><h4>Please upload the files you want to compare the query with:</h4></center>
+        <center><%= file_field_tag 'file2' %></center>
+        <center><%= file_field_tag 'file3' %></center>
+        <center><%= file_field_tag 'file4' %></center>
+        <center><%= file_field_tag 'file5' %></center>
+        <center><%= file_field_tag 'file6' %></center>
+        <center><%= file_field_tag 'file7' %></center>
+        <br>
+        <center><%= submit_tag "Send Attachment" %></center>
+    <% end %>
+    <br>
+    <center><%= flash[:notice] %></center>
+    <%= flash[:error] %>c
+    <br>
+    <br>
+
+    <center><h2>View your recent comparisons:</h2></center>
+    <%= form_tag 'show' , :multipart => true do %>
+        <center> <%= submit_tag "Show" %></center>
+    <% end %>
+    <br>
+    <%else%>
+    <%= render :file => 'app/views/file_managers/upload.html.erb'%>
+<%end%>
